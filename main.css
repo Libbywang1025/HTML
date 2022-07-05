@@ -1,0 +1,555 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:  "Noto Sans TC", Roboto, 微軟正黑體, sans-serif;
+}
+.wrap{
+    background: url(images/bg-01.png) no-repeat 0 0 fixed;
+    background-size: cover;
+}
+/* -----------header--------------- */
+header{
+    background-color: #2c2c2c;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+}
+nav{
+    width: 100%;
+    max-width: 1140px;
+    height: 70px;
+    margin: auto;
+}
+.brand{
+    float: left;
+}
+.brand img{
+    clear: left;
+    width: 350px;
+    padding-top: 20px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 76px;
+    font-weight: 700;
+}
+/* ----------------notice------------------ */
+.notice{
+    padding: 80px 2% 5px 2%;
+    background-color: rgb(108, 117, 125);
+    color: #fff;
+    width: 100%;
+}
+.notice h4{ 
+    line-height: 1.5;
+    font-size: 1.375em;
+    font-weight: 500;
+    margin: auto;
+    max-width: 1140px;
+}
+.notice p{
+    width: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: auto;
+    max-width: 1140px;
+    font-size: 0.875em;
+}
+nav a.btn1{
+    background-color: rgba(29, 105, 164, 0.61);
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+nav a.btn1:hover{
+    background-color: rgba(222, 117, 41, 0.935);
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: black;
+}
+nav a.btn2{
+    background-color: rgba(233, 42, 42, 0.61);
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+nav a.btn2:hover{
+    background-color: rgba(222, 117, 41, 0.935);
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: black;
+}
+nav ul img{
+    display: block;
+    margin: 20px 10px;
+}
+.edm img{
+    padding-top: 50px;
+    /* margin: 0 250px; */
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+    width: 100%;
+}
+.time{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(144, 139, 139);
+    padding: 30px;
+    color: #fff;
+}
+.time p{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+span{
+    font-size: 25px;
+}
+.slide{
+    padding: 30px 0 30px 0;
+    color: #fff;
+    background-color: rgb(196, 36, 36);
+    text-align: center;
+}
+.slide .container{
+    font-size: 30px ;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.slide .icon{
+    width: 80px;
+    margin: 5px;
+}
+.icon1, .icon2, .icon3{
+    display: inline-block;
+    margin: 50px 10px 50px 10px;
+    text-align: center;
+}
+.slide h3{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px;
+}
+.slide p{
+    line-height: 1.6em;
+}
+.syllabus{
+    background-image: linear-gradient( 45deg, #f7ce9f, #faefdb);
+}
+.syllabus img{
+    padding-top: 50px;
+    margin: auto;
+    display: block;
+}
+.info1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: space-between;
+    width: fit-content;
+    max-width: 1040px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.info1 .container1{
+    width: 900px;
+}
+.info2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.info2 .container2 {
+    display: flex;
+    width: 900px;
+}
+.agenda{
+    font-size: 2.25em;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+}
+.title, .title2{
+    font-weight: 600;
+    padding: 2px 10px 5px;
+    width: 500px;
+    background-image: linear-gradient(135deg, rgb(234, 80, 60), rgb(235, 142, 37), rgba(66, 178, 169, 0.013));
+}
+.list1{
+    float: left;
+}
+.list2{
+    padding:40px 0 0 100px;
+}
+.list1 .h3, .list2 .h3{
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding: 0px 6px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.info h2{
+    background-color: #ea503c;
+    font-weight: 600;
+    color: #fff;
+    font-size: 1.75em;
+    display: inline-block;
+    margin: 0;
+    padding: 0 6px;
+    line-height: 1.5;
+}
+.info h6{
+    background-color: #ea503c;
+    color: #fff;
+    font-weight: 500;
+    padding: 0 6px;
+    font-size: 1.125em;
+    margin-top: 6px;
+    display: inline-block;
+    line-height: 1.5;
+}
+.btn_s1, .btn_s2{
+    background-color:#436583;
+    color: #fff;
+    border-color: #436583;
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    margin-top: 0.5em;
+    display: inline-block;
+}
+.speaker1, .speaker2{
+    width: 100%;
+    max-width: 400px;
+    display: inline-block;
+    position: relative;
+}
+.speaker1_info{
+    width: 100%;
+    max-width: 500px;
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    text-align: left;   
+    bottom: -15%;
+    flex-direction: column;
+    align-items: flex-end;
+    /* flex-direction: column 交錯軸線位置與主軸線位置調換，因此內容物呈現直向排列
+    align-items：flex-end 物件向終點對齊 */
+}
+.speaker2_info{
+    text-align: left;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 500px;
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    bottom: -15%;
+    flex-direction: column;
+}
+.speaker_img{
+    width: 280px;
+    max-width: 280px;
+    margin-left: 50px;
+}
+/* ----------courseinfo----------------- */
+.display-1{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    padding: 3% 0;
+}
+.container_col{
+    display: flex;
+}
+.course_info{
+    background-color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.course_info .container{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.header{
+    color: #000;
+}
+.course_info .content_text .header {
+    margin-bottom: 8px;
+}
+.course_info .content_text h2 {
+    margin-bottom: 8px;
+}
+.course_info .allbutton{
+    display: flex;
+    flex-wrap: wrap;
+    width: 665px;
+    margin-bottom: 10px;
+}
+.course_info .card{
+    background-color:#f7ac23;
+    width: 300px;
+    height: 100px;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.course_info .num1{
+    background-color:#f7ac23;
+    margin-top: 16PX;
+    margin-right: 28PX;
+}
+
+.course_info .num2{
+    background-color: rgb(234, 80, 60);
+    margin-top: 16PX;
+    margin-right: 28PX;
+}
+.course_info .num3{
+    background-color:rgb(66, 101, 130);
+    margin-top: 16PX;
+    margin-right: 28PX;
+}
+.course_info .num4{
+    background-color:rgb(237, 109, 52);
+    margin-top: 16PX;
+    margin-right: 28PX;
+}
+.num1 a, .num2 a, .num3 a, .num4 a{
+    text-decoration: none;
+    color: #fff;
+}
+.num1:hover, .num2:hover,.num3:hover,.num4:hover{
+    background-color: #7f7f7f;
+}
+.button_footer{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 8px 90px 0px auto;
+}
+.container_text .footer{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 110px;
+}
+.container_text .footer .contact{
+    color: #ea503c;
+}
+
+.course_info .address{
+    font-weight: 400;
+    font-size: 80%;
+}
+.container img{
+    width: 400px;
+    margin-left: 30px;
+}
+.price{
+    font-size: 2.125rem;
+    font-family: 'Oswald', sans-serif;
+}
+.contact{
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 110px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #ea503c;
+}
+/* -------------feedback-------------------- */
+.display-2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+}
+.feedback{
+    background-color: #f7ac23;
+    color: #fff;
+    padding-top: 40px;
+    text-align: center;
+    height: 270px;
+}
+.feedback h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.feedback p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.feedback .container{
+    margin: 40px auto 0px auto;
+}
+/* ------------------read-------------------- */
+.read .display-1{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.read .container{
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+.article1, .article2, .article3, .article4{
+    max-width: 25%;
+    width: 100%;
+}
+
+.article1 h6, .article2 h6, .article3 h6, .article4 h6 {
+    padding: 10px 5px 15px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: rgb(0, 38, 59);
+}
+.link{
+    text-decoration: none;
+}
+
+.read .container img{
+    width: 200px;
+    border: 2px solid #fff;
+}
+/* -----------qa--------------- */
+.question{
+    background-color: rgb(66, 101, 130);
+}
+.question .display-2{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.question .container{
+    text-align: center;
+    padding-bottom: 3%;
+    max-width: 960px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.question h3,p{
+    color: #fff;
+}
+.question h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: left;
+}
+.question p{
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.question li{
+    margin-bottom: 2rem;
+    margin: 10px 0;
+}
+.question ul{
+    margin: 0;
+    padding: 0;
+}
+.question p a{
+    text-decoration: none;
+    color: #f7ac23;
+}
+/* -----------banner--------------- */
+.banner{
+    background-color:rgb(66, 101, 130);
+}
+.banner .container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.banner img{
+    width: 100%;
+}
+/* -----------footer--------------- */
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+footer h2{
+    font-weight: 600;
+    display: inline-block;
+}
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 5px;
+}
+footer .rights{
+    display: block;
+    letter-spacing: 1px;
+    line-height: 1rem;
+    font-size: 14px;
+    font-weight: 300;
+    word-spacing: 1px;
+    padding: 10px;
+}
+footer .scrolltop{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #ea503c;
+    color:#fff;
+    text-align: center;
+    font-weight: 600;
+    line-height: 35px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
